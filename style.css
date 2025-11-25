@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#burger {
+    color: #fff;
+}
+
+.navbar {
+    display: flex;
+}
+
+#logo {
+    margin-left: 30px;
+    width: 300px;
+}
+
+input {
+    width: 400px;
+    height: 50px;
+    border-radius: 9px;
+    background-color: rgb(249, 249, 250);
+    border: none;
+}
+
+a {
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#uqi,
+#lich {
+    text-decoration: none;
+}
+
+#uqi {
+    color: #28a6f3;
+}
+
+#lich {
+    color: #e74c3c;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+}
+
+.tepa {
+    display: flex;
+}
+
+#top {
+    display: inline;
+    font-size: 60px;
+    font-weight: 100;
+}
+
+#tuliq {
+    width: 120px;
+    background-color: #28a6f3;
+    border: none;
+    height: 35px;
+    margin-left: 1000px;
+    margin-top: 10px;
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+
+/* cardlar */
+.div12 {
+    grid-column-start: 3;
+    grid-row-start: 3;
+}
+
+.div13 {
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+
+.div1 {
+
+    width: 200px;
+    height: 280px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+}
+
+.div2 {
+
+    width: 200px;
+    height: 280px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+}
+
+.div3 {
+
+    width: 200px;
+    height: 280px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+}
+
+.div4 {
+
+    width: 200px;
+    height: 280px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+}
+
+.div5 {
+
+    width: 200px;
+    height: 280px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+}
+
+.div6 {
+
+    width: 200px;
+    height: 280px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+}
+
+.div7 {
+
+    width: 200px;
+    height: 280px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+}
+
+.div8 {
+
+    width: 200px;
+    height: 280px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+}
+
+.div9 {
+
+    width: 200px;
+    height: 280px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+}
+
+.div10 {
+
+    width: 200px;
+    height: 280px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+}
+
+.div11 {
+
+    width: 200px;
+    height: 280px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+}
+
+.div12 {
+
+    width: 200px;
+    height: 280px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+}
+
+.div13 {
+
+    width: 200px;
+    height: 280px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    
+}
+
+.div14 {
+
+    width: 200px;
+    height: 280px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+}
+
+.div15 {
+
+    width: 200px;
+    height: 280px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+}
+
+
+.card-header-1 {
+    width: 100%;
+    height: 45%;
+    background-color: rgb(208, 216, 239, );
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+
+}
+
+#rasm-1 {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    transform: translate(45%, 10%);
+
+}
+
+.card-body-1 {
+    width: 100%;
+    height: 55%;
+}
+
+#ism-1 {
+    margin: 15px 0 8px;
+    height: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#kurs-1 {
+    line-height: 20px;
+    height: 60px;
+    overflow: hidden;
+    opacity: .5;
+    text-align: center;
+}
+
+#stars-1 {
+    text-align: center;
+}
+
+svg {
+    color: gold;
+}
+
+.div2 {
+    width: 200px;
+    height: 280px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+
+}
+
+.card-header-2 {
+    width: 100%;
+    height: 45%;
+    background-color: rgb(208, 216, 239, );
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+
+}
+
+#rasm-2 {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    transform: translate(45%, 10%);
+
+}
+
+.card-body-2 {
+    width: 100%;
+    height: 55%;
+}
+
+#ism-2 {
+    margin: 15px 0 8px;
+    height: 20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#kurs-2 {
+    line-height: 20px;
+    height: 60px;
+    overflow: hidden;
+    opacity: .5;
+    text-align: center;
+}
+
+#stars-2 {
+    text-align: center;
+}
+
+svg {
+    color: gold;
+}
